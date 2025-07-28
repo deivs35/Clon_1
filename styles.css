@@ -2,11 +2,12 @@ h2 {
     text-align: center;
     margin: 0;
 }
+
 .header {
     min-height: 100vh;
     background-image: url(https://horiuko.com/wd/wp-content/plugins/elementor/assets/images/placeholder.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
 }
 
 .header {
@@ -18,33 +19,35 @@ h2 {
 .header_img {
     padding-bottom: 300px;
     margin: 0px 40px 0px;
-    
+
 }
 
 img {
     border: 3px solid black;
 }
+
 .header_text {
     text-align: center;
     padding: 0px 40px 0px;
 }
+
 .formulario {
     display: flex;
     flex-direction: column;
     width: 21rem;
-    border-radius:30%;   
+    border-radius: 30%;
 }
 
 .formulario_text {
     margin: 3px;
     background-color: transparent;
     height: 25px;
-    padding: 6px ;
+    padding: 6px;
 }
 
 button {
     background-color: rgb(245, 189, 4);
-    border-radius:5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
     padding: 6px;
     height: 40px;
     width: 331px;
@@ -56,22 +59,38 @@ button {
     min-height: 100vh;
     background-image: url(https://horiuko.com/wd/wp-content/plugins/elementor/assets/images/placeholder.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;   
-    position: absolute;
-    padding: 80px 250px ;
+    background-size: 100% 100%;
+    padding: 80px 250px;
+    position: relative;
+    z-index: 1;
 }
 
 .sub_seccion_1 {
     display: flex;
-    justify-content:center ;  
+    justify-content: center;
 }
 
 .seccion_2 {
-    min-height: 100vh;
-    display: flex;   
+    background-color:#ff9c00 ;
+    max-height: 100vh;
+    display: flex;
+    position: relative;
+    margin-top: -100px;
+    z-index: 2;
+}
+
+.seccion_2_posicion {
+    width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.seccion_2_texto {
+color: transparent;
 }
 
 footer {
-     background-color: black;
+    background-color: black;
     color: white;
 }
