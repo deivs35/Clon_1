@@ -1,14 +1,8 @@
-
-
-.seccion_1, .seccion_2 {
-    padding: 10px 10px 0px 10px;
-}
-
 h2 {
     text-align: center;
 }
 .header {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(https://horiuko.com/wd/wp-content/plugins/elementor/assets/images/placeholder.png);
     background-repeat: no-repeat;
     background-size: 100% 100%; 
@@ -32,7 +26,7 @@ h2 {
     margin: 3px;
     background-color: transparent;
     height: 25px;
-    padding: 6px;
+    padding: 6px ;
 }
 
 button {
@@ -46,28 +40,28 @@ button {
 }
 
 .seccion_1 {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(https://horiuko.com/wd/wp-content/plugins/elementor/assets/images/placeholder.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;   
     position: absolute;
 }
 
-.segunda_seccion {
+.sub_seccion_1 {
     display: flex;
     justify-content:center ;  
-  
 }
 
+.sub_seccion_1
+{
+    
+}
 .seccion_2 {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-   
+    min-height: 100vh;
+    display: flex;   
 }
 
 footer {
-    height: 25vh;
-    background-color: black;
+     background-color: black;
     color: white;
 }
