@@ -1,5 +1,6 @@
 h2 {
     text-align: center;
+    margin: 0;
 }
 .header {
     min-height: 100vh;
@@ -10,15 +11,27 @@ h2 {
 
 .header {
     display: flex;
-    justify-content:center ;  
-    align-items: center; 
+    align-items: end;
+    padding: 0px 250px 0px;
 }
 
+.header_img {
+    padding-bottom: 300px;
+    margin: 0px 40px 0px;
+    
+}
 
+img {
+    border: 3px solid black;
+}
+.header_text {
+    text-align: center;
+    padding: 0px 40px 0px;
+}
 .formulario {
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 21rem;
     border-radius:30%;   
 }
 
@@ -34,7 +47,7 @@ button {
     border-radius:5px 5px 5px 5px;
     padding: 6px;
     height: 40px;
-    width: 316px;
+    width: 331px;
     margin-left: 2px;
     text-align: center;
 }
@@ -45,6 +58,7 @@ button {
     background-repeat: no-repeat;
     background-size: 100% 100%;   
     position: absolute;
+    padding: 80px 250px ;
 }
 
 .sub_seccion_1 {
@@ -52,10 +66,6 @@ button {
     justify-content:center ;  
 }
 
-.sub_seccion_1
-{
-    
-}
 .seccion_2 {
     min-height: 100vh;
     display: flex;   
