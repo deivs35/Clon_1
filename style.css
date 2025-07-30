@@ -1,6 +1,22 @@
+body {
+    color: #00162e;
+}
+
+main {
+    position: relative;
+}
+
 h2 {
     text-align: center;
+    font-size: 28px;
     margin: 0;
+    font-family: quicksand, sans-serif;
+}
+
+p {
+    text-align: justify;
+    margin: 0px 0px 15px;
+    font-family: maven pro, sans-serif;
 }
 
 .header {
@@ -61,34 +77,46 @@ button {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 80px 250px;
-    position: relative;
-    z-index: 1;
 }
 
-.sub_seccion_1 {
+.sub_seccion_1, .sub_seccion_2 {
     display: flex;
     justify-content: center;
 }
 
-.seccion_2 {
-    background-color:#ff9c00 ;
-    max-height: 100vh;
-    display: flex;
-    position: relative;
-    margin-top: -100px;
-    z-index: 2;
+.sub_seccion_1_2 {
+    margin-top: 10px;
 }
 
-.seccion_2_posicion {
-    width: 100%;
-  max-width: 500px;
-  display: block;
-  margin: 0 auto;
+.seccion_2 {
+    position: relative;
+    z-index: 1;
+
 }
 
 .seccion_2_texto {
-color: transparent;
+    position: absolute;
+    z-index: 2;
+    border: dashed;
+    min-height: auto;
+    padding-left: 600px;
+    background-color: rgb(245, 189, 4);
 }
+
+.sub_seccion_2_1 {
+    margin-top: 10px;
+}
+
+.sub_seccion_2_2 {
+    margin-top: 0px;
+}
+
+.seccion_2_posicion {
+    position:absolute ;
+    z-index: 3;
+    bottom: -190px;
+}
+
 
 footer {
     background-color: black;
