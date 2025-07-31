@@ -1,0 +1,28 @@
+.aparte {
+    height: 300px;
+    border: salmon double 5px;
+}
+
+.referencia {
+    position: relative;
+}
+
+.primero {
+    position: relative;
+    z-index: 1;
+    
+    border:rgb(224, 168, 64) solid 5px;
+    height: 10rem;
+
+}
+
+
+.tercero {
+    position: absolute;
+    z-index: 3;
+    background-color: blueviolet;
+    width: 7rem;
+    height: 7rem;
+    bottom: 90px;
+    left: 80px;
+}

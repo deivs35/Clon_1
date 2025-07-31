@@ -1,21 +1,15 @@
 body {
-    color: #00162e;
-}
-
-main {
-    position: relative;
+    color: #012750;
 }
 
 h2 {
     text-align: center;
     font-size: 28px;
-    margin: 0;
     font-family: quicksand, sans-serif;
 }
 
 p {
-    text-align: justify;
-    margin: 0px 0px 15px;
+    text-align: center;
     font-family: maven pro, sans-serif;
 }
 
@@ -50,7 +44,7 @@ img {
 .formulario {
     display: flex;
     flex-direction: column;
-    width: 21rem;
+    width: 27.2rem;
     border-radius: 30%;
 }
 
@@ -65,8 +59,8 @@ button {
     background-color: rgb(245, 189, 4);
     border-radius: 5px 5px 5px 5px;
     padding: 6px;
-    height: 40px;
-    width: 331px;
+    height: 46px;
+    width: 430px;
     margin-left: 2px;
     text-align: center;
 }
@@ -79,46 +73,67 @@ button {
     padding: 80px 250px;
 }
 
-.sub_seccion_1, .sub_seccion_2 {
+.sub_seccion_1,
+.sub_seccion_2 {
     display: flex;
     justify-content: center;
 }
 
 .sub_seccion_1_2 {
     margin-top: 10px;
-}
-
-.seccion_2 {
-    position: relative;
-    z-index: 1;
-
-}
-
-.seccion_2_texto {
-    position: absolute;
-    z-index: 2;
-    border: dashed;
-    min-height: auto;
-    padding-left: 600px;
-    background-color: rgb(245, 189, 4);
+    padding: 0px 20px;
 }
 
 .sub_seccion_2_1 {
-    margin-top: 10px;
+    margin: 20px 30px 20px 10px;
 }
 
 .sub_seccion_2_2 {
     margin-top: 0px;
 }
 
-.seccion_2_posicion {
-    position:absolute ;
-    z-index: 3;
-    bottom: -190px;
+.seccion_2 {
+    position: relative;
 }
 
+.seccion_2_texto {
+    background-color: rgb(245, 189, 4);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    height: 200px;
+}
+
+.seccion_2_posicion {
+    position: absolute;
+    z-index: 3;
+    bottom: -20px;
+}
+
+.seccion_2_texto_1 {
+    width: 50%;
+}
+
+.seccion_2_texto_2 {
+    padding: 10px;
+    width: 50%;
+}
+
+.seccion_2_texto_2 h2 {
+    margin: 15px;
+}
+
+.seccion_2_texto_2 p {
+    width: 540px;
+}
 
 footer {
     background-color: black;
     color: white;
+}
+
+footer p {
+    margin: 0px;
+    padding: 50px 180px;
+    height: 100%;
 }
